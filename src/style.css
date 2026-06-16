@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.chat-link {
+    color: #818cf8;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+    .chat-link:hover {
+        color: white;
+    }

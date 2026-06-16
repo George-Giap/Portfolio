@@ -1,0 +1,27 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Helmet -->
+  <circle cx="32" cy="22" r="16" fill="#1e1b4b" stroke="#818cf8" stroke-width="2"/>
+  <!-- Visor -->
+  <ellipse cx="32" cy="22" rx="9" ry="8" fill="#312e81" opacity="0.9"/>
+  <ellipse cx="32" cy="22" rx="9" ry="8" fill="url(#visorGrad)" opacity="0.6"/>
+  <!-- Visor shine -->
+  <ellipse cx="28" cy="18" rx="3" ry="2" fill="white" opacity="0.3"/>
+  <!-- Suit body -->
+  <rect x="20" y="36" width="24" height="18" rx="8" fill="#1e1b4b" stroke="#818cf8" stroke-width="1.5"/>
+  <!-- Chest panel -->
+  <rect x="26" y="40" width="12" height="8" rx="3" fill="#312e81" stroke="#6366f1" stroke-width="1"/>
+  <!-- Chest light -->
+  <circle cx="32" cy="44" r="2" fill="#818cf8" opacity="0.9"/>
+  <!-- Arms -->
+  <rect x="10" y="37" width="10" height="14" rx="5" fill="#1e1b4b" stroke="#818cf8" stroke-width="1.5"/>
+  <rect x="44" y="37" width="10" height="14" rx="5" fill="#1e1b4b" stroke="#818cf8" stroke-width="1.5"/>
+  <!-- Gloves -->
+  <circle cx="15" cy="52" r="4" fill="#312e81" stroke="#818cf8" stroke-width="1"/>
+  <circle cx="49" cy="52" r="4" fill="#312e81" stroke="#818cf8" stroke-width="1"/>
+  <defs>
+    <radialGradient id="visorGrad" cx="40%" cy="40%">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#4f46e5" stop-opacity="0.2"/>
+    </radialGradient>
+  </defs>
+</svg>
